@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="main2.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<title> Title </title>
+
+</head>
+
+<body>
+	<div id="app">
+		<header>
+			<div class="top">
+				<!--				<div class="container logo_nysl">-->
+
+<!--				<button class="back" type="button">Back</button>-->
+				<button class="back" type="button">Back<i class="material-icons">arrow_back</i></button>
+				<i class="material-icons">&#xe5c4;</i>
+				
+
+				<!--				<a href="#" class="back">&laquo; Back</a>-->
+
+				<img class="image1" src="images/nysl_logo.png" alt="the logo of the nysl" />
+				<!--				</div>-->
+			</div>
+
+
+
+		</header>
+
+		<div class="game">
+			<h1>Games</h1>
+		</div>
+
+		<div class="middle-container">
+			<div class="steps">
+				<button type="button">ALL</button>
+				<div class="button" v-for="team in teams">
+					<button type="button">{{ team.name }}</button>
+				</div>
+			</div>
+
+
+			<div class="bottom">
+				<!--				<button type="button">Home</button>-->
+				<button type="button">Home<i class='fas fa-home'></i></button>
+				<!--				<button type="button">Location</button>-->
+				<button type="button">Location<i class="material-icons">edit_location</i></button>
+				<!--				<button type="button">Chat</button>-->
+				<button type="button">Chat<i class="fa fa-wechat"></i></button>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/vue/dist/vue.js"></script>
+	<script src="main.js"></script>
+</body>
+
+</html>

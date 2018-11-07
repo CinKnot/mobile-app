@@ -1,0 +1,95 @@
+body {
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+	min-height: 100vh;
+	background-image: url(images/grass2.png);
+}
+
+.top {
+	height: 10vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.back {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	background-color: #f1f1f1;
+	color: black;
+	border: 2px solid #555555;
+	border-radius: 7px;
+	/*	transform: skew(-20deg);*/
+	/*	-webkit-transform: skew(-20deg);*/
+	border: solid 1px #720000;
+	17 background-color: #c72a2a;
+	18 background: -moz-linear-gradient(top, #c72a2a 0%, #9e0e0e 100%);
+	19 background: -webkit-linear-gradient(top, #c72a2a 0%, #9e0e0e 100%);
+	20 background: -o-linear-gradient(top, #c72a2a 0%, #9e0e0e 100%);
+	21 background: -ms-linear-gradient(top, #c72a2a 0%, #9e0e0e 100%);
+	22 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9e0e0e', endColorstr='#9e0e0e', GradientType=0);
+	23 background: linear-gradient(top, #c72a2a 0%, #9e0e0e 100%);
+	24 -webkit-box-shadow: 0px 0px 1px #FF3300, inset 0px 0px 1px #FFFFFF;
+	25 -moz-box-shadow: 0px 0px 1px #FF3300, inset 0px 0px 1px #FFFFFF;
+	26 box-shadow: 0px 0px 1px #FF3300, inset 0px 0px 1px #FFFFFF;
+	27
+}
+
+
+.image1 {
+	width: 20%;
+}
+
+.game {
+	font-family: 'Open Sans', sans-serif, cursive;
+}
+
+.middle-container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.steps {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	width: 100%;
+	border-radius: 7px;
+	border: 1px solid #bbb;
+
+}
+
+.steps button {
+	width: 100%;
+	font-size: 20px;
+	border-radius: 7px;
+	border: 1px solid #bbb;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+}
+
+.bottom button {
+	background-color: limegreen;
+	cursor: pointer;
+	border: 1px solid #bbb;
+	overflow: visible;
+	/*	font: bold 25px arial, helvetica, sans-serif;*/
+	font-size: 26px;
+	font-family: 'Open Sans', sans-serif, cursive;
+	text-decoration: none;
+	white-space: nowrap;
+	color: #555;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, .2);
+	border-radius: 7px;
+	height: 70px;
+}
+
+.game {
+	text-align: center;
+}
