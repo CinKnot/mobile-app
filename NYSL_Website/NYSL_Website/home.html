@@ -19,39 +19,93 @@
 
 <body>
 	<div id="app">
-		<header>
-			<div class="top">
-				<!--				<div class="container logo_nysl">-->
-
-<!--				<button class="back" type="button">Back</button>-->
+		<div class='view home'>
+			<div class="header">
 				<button class="back" type="button">Back<i class="material-icons">arrow_back</i></button>
 				<i class="material-icons">&#xe5c4;</i>
-				
-
-				<!--				<a href="#" class="back">&laquo; Back</a>-->
-
 				<img class="image1" src="images/nysl_logo.png" alt="the logo of the nysl" />
+			</div>
+			<div class="title">
+				<h1>Home</h1>
+			</div>
+			<div class="content">
+				<!--				<div class="steps">-->
+
 				<!--				</div>-->
 			</div>
-
-
-
-		</header>
-
-		<div class="game">
-			<h1>Games</h1>
+			<div class="nav">
+				<!--				<button type="button">Home</button>-->
+				<button type="button">Game<i class='fas fa-home'></i></button>
+				<!--				<button type="button">Location</button>-->
+				<button type="button">Location<i class="material-icons">edit_location</i></button>
+				<!--				<button type="button">Chat</button>-->
+				<button type="button">Chat<i class="fa fa-wechat"></i></button>
+			</div>
 		</div>
-
-		<div class="middle-container">
-			<div class="steps">
-				<button type="button">ALL</button>
-				<div class="button" v-for="team in teams">
-					<button type="button">{{ team.name }}</button>
+		<div class='view team-selection'>
+			<div class="header">
+				<button class="back" type="button">Back<i class="material-icons">arrow_back</i></button>
+				<i class="material-icons">&#xe5c4;</i>
+				<img class="image1" src="images/nysl_logo.png" alt="the logo of the nysl" />
+			</div>
+			<div class="title">
+				<h1>Games</h1>
+			</div>
+			<div class="content">
+				<div class="steps">
+					<button type="button" @click="getSelectedGames('all')">ALL</button>
+					<button type="button" v-for="team in teams" @click="getSelectedGames(team.name)">{{ team.name }}</button>
 				</div>
 			</div>
+			<div class="nav">
+				<!--				<button type="button">Home</button>-->
+				<button type="button">Home<i class='fas fa-home'></i></button>
+				<!--				<button type="button">Location</button>-->
+				<button type="button">Location<i class="material-icons">edit_location</i></button>
+				<!--				<button type="button">Chat</button>-->
+				<button type="button">Chat<i class="fa fa-wechat"></i></button>
+			</div>
+		</div>
+		<div class='view team-schedule'>
+			<div class="header">
+				<button class="back" type="button">Back<i class="material-icons">arrow_back</i></button>
+				<i class="material-icons">&#xe5c4;</i>
+				<img class="image1" src="images/nysl_logo.png" alt="the logo of the nysl" />
+			</div>
+			<div class="title">
+				<h1>Schedule</h1>
+			</div>
+			<div class="content">
+				<div class="choice">
+					<label for="duration">Filter by Team:</label>
+					<select name="duration" id="duration" v-model="selectedTeam" @change="getSelectedGames(selectedTeam)">
+						<option id="all" value="all">All</option>
+						<option v-for='team in teams' :value="team.name">{{team.name}}</option>
+					</select>
+				</div>
+				<table id="game-data" class="table">
+					<thead></thead>
+					<tbody id="games">
 
+						<tr>
+							<th>Months</th>
+							<th>Teams</th>
+							<th>Location</th>
+							<th>Time</th>
 
-			<div class="bottom">
+						</tr>
+						<tr v-for="game in games">
+							<td>{{game.date}}
+							</td>
+							<td>{{game.teams.host}} vs {{game.teams.visitor}}</td>
+							<td>{{game.location}}</td>
+							<td>{{game.time}}</td>
+						</tr>
+					</tbody>
+
+				</table>
+			</div>
+			<div class="nav">
 				<!--				<button type="button">Home</button>-->
 				<button type="button">Home<i class='fas fa-home'></i></button>
 				<!--				<button type="button">Location</button>-->
@@ -61,7 +115,81 @@
 			</div>
 		</div>
 
+		<div class='view location-selection'>
+
+			<div class="header">
+				<button class="back" type="button">Back<i class="material-icons">arrow_back</i></button>
+				<i class="material-icons">&#xe5c4;</i>
+				<img class="image1" src="images/nysl_logo.png" alt="the logo of the nysl" />
+			</div>
+			<div class="title">
+				<h1>Locations</h1>
+			</div>
+			<div class="content">
+				<div class="steps">
+					<!--					<button type="button">ALL</button>-->
+					<button type="button" v-for="location in locationNames" @click="getSelectedLocations(location)">{{ location }}</button>
+				</div>
+			</div>
+			<div class="nav">
+				<!--				<button type="button">Home</button>-->
+				<button type="button">Home<i class='fas fa-home'></i></button>
+				<!--				<button type="button">Location</button>-->
+				<button type="button">Game<i class="material-icons">edit_location</i></button>
+				<!--				<button type="button">Chat</button>-->
+				<button type="button">Chat<i class="fa fa-wechat"></i></button>
+			</div>
+		</div>
+
+		<div class='view location-iframe'>
+			<div class="header">
+				<button class="back" type="button">Back<i class="material-icons">arrow_back</i></button>
+				<i class="material-icons">&#xe5c4;</i>
+				<img class="image1" src="images/nysl_logo.png" alt="the logo of the nysl" />
+			</div>
+			<div class="title">
+				<h1>Locations</h1>
+			</div>
+			<div class="content">
+				<iframe v-bind:src="selectedLocation" allowfullscreen></iframe>
+<!--				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.654213557415!2d-87.63123838475778!3d41.90029307922052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f6bac3%3A0x68a82e5d59952c86!2s24+W+Walton+St%2C+Chicago%2C+IL+60610%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1538054040140" allowfullscreen></iframe>-->
+			</div>
+			<div class="nav">
+				<!--				<button type="button">Home</button>-->
+				<button type="button">Home<i class='fas fa-home'></i></button>
+				<!--				<button type="button">Location</button>-->
+				<button type="button">Game<i class="material-icons">edit_location</i></button>
+				<!--				<button type="button">Chat</button>-->
+				<button type="button">Chat<i class="fa fa-wechat"></i></button>
+			</div>
+		</div>
+
+		<div class='view chat'>
+
+			<div class="header">
+				<button class="back" type="button">Back<i class="material-icons">arrow_back</i></button>
+				<i class="material-icons">&#xe5c4;</i>
+				<img class="image1" src="images/nysl_logo.png" alt="the logo of the nysl" />
+			</div>
+			<div class="title">
+				<h1>Chat</h1>
+			</div>
+			<div class="content">
+				<!--				<div class="steps">-->
+
+				<!--				</div>-->
+			</div>
+			<div class="nav">
+				<!--				<button type="button">Home</button>-->
+				<button type="button">Game<i class='fas fa-home'></i></button>
+				<!--				<button type="button">Location</button>-->
+				<button type="button">Location<i class="material-icons">edit_location</i></button>
+				<!--				<button type="button">Chat</button>-->
+				<button type="button">Chat<i class="fa fa-wechat"></i></button>
+			</div>
+		</div>
 	</div>
+
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

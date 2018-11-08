@@ -3,40 +3,33 @@
       	"homeTown": "Chicago",
       	"num_games": 17,
       	"games": [
-      		{
+			{
       			"date": "9/01",
       			"teams": {
       				"host": "U1",
-      				"visitor": "U4",
-
+      				"visitor": "U4"
       			},
-
       			"location": "AJ Katzenmaier",
-      			"link": "https://www.google.com/maps/dir/52.342784,4.8177152/google+maps+aj+katzenmaier/@20.2415496,-111.6538223,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880f932fbc6ba7cd:0xcf2bbe275c6da815!2m2!1d-87.8627401!2d42.3258685",
-      			"time": "9:30 a.m."
-				},
-
-      		{
+      			"link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.654213557415!2d-87.63123838475778!3d41.90029307922052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f6bac3%3A0x68a82e5d59952c86!2s24+W+Walton+St%2C+Chicago%2C+IL+60610%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1538054040140",
+      			"time": "9:30 a.m."				}, {
       			"date": "9/01",
       			"teams": {
       				"host": "U3",
-      				"visitor": "U2",
+      				"visitor": "U2"
       			},
       			"location": "Greenbay",
-      			"link": "https://www.google.com/maps/dir/52.342784,4.8177152/google+maps+greenbay+elementary+school/@20.2369431,-111.6602344,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880f933bce5af881:0x740a7a7d548adce1!2m2!1d-87.8688642!2d42.3209639",
-      			"time": "1:00 p.m.",
-				},
-
-      		{
+      			"link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.022795992264!2d-87.64002218475413!3d41.9138686711543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3407260c45b%3A0xb351205fae50c6f3!2sGreenbay+Elementary!5e0!3m2!1snl!2snl!4v1538132628646",
+      			"time": "1:00 p.m."				
+				}, {
       			"date": "9/08",
       			"teams": {
       				"host": "U5",
       				"visitor": "U6"
       			},
       			"location": "Howard A Yeager",
-      			"link": "https://www.google.com/maps/dir/52.342784,4.8177152/google+maps+howard+a+yeager+school/@20.2317528,-111.6565181,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880feccac26b07c5:0x8b51fa5d6efe771a!2m2!1d-87.8538811!2d42.3154383",
-      			"time": "9:30 a.m.",
-				},
+      			"link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d378807.9890583925!2d-88.03858820023551!3d42.119518220580346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f852467%3A0xb6cb22b2f0358874!2sHoward+A+Yeager+Elementary!5e0!3m2!1snl!2snl!4v1538133143181",
+      			"time": "9:30 a.m."				},
+
       		{
       			"date": "9/08",
       			"teams": {
@@ -44,8 +37,8 @@
       				"visitor": "U1"
       			},
       			"location": "Majorie P Hart",
-      			"link": "https://www.google.com/maps/dir/52.342784,4.8177152/google+maps+majorie+p+hart+school/@20.2427662,-111.6444125,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880fecd0628e1bb5:0x9a4d5f9aafd42e02!2m2!1d-87.84569!2d42.3271639",
-      			"time": "1:00 p.m.",
+      			"link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.289653643637!2d-87.64816138475369!3d41.92962687016738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2637f9d7%3A0xdbff5d5dfcfcfa35!2sMarjorie+P+Hart+Elementary!5e0!3m2!1snl!2snl!4v1538133297763",
+      			"time": "1:00 p.m."
 				},
       		{
       			"date": "9/15",
@@ -54,9 +47,8 @@
       				"visitor": "U4"
       			},
       			"location": "North",
-      			"link": "https://www.google.com/maps?ll=42.368957,-87.834445&z=14&t=m&hl=nl-NL&gl=US&mapclient=embed&daddr=North+Elementary+School+410+Franklin+St+Waukegan,+IL+60085@42.36895699999999,-87.834445",
-      			"time": "9:30 a.m."
-				},
+      			"link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2967.8450166737325!2d-87.8660523847534!3d41.9391815695688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fb5780ddb9c43%3A0x227feb04cbcf4c4!2sNorth+Elementary+School!5e0!3m2!1snl!2snl!4v1538133595483",
+      			"time": "9:30 a.m."				},
       		{
       			"date": "9/15",
       			"teams": {
@@ -64,9 +56,8 @@
       				"visitor": "U5"
       			},
       			"location": "AJ Katzenmaier",
-      			"link": "https://www.google.com/maps/dir/52.342784,4.8177152/google+maps+aj+katzenmaier/@20.2415496,-111.6538223,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880f932fbc6ba7cd:0xcf2bbe275c6da815!2m2!1d-87.8627401!2d42.3258685",
-      			"time": "1:00 p.m."
-},
+      			"link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.654213557415!2d-87.63123838475778!3d41.90029307922052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f6bac3%3A0x68a82e5d59952c86!2s24+W+Walton+St%2C+Chicago%2C+IL+60610%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1538054040140",
+      			"time": "1:00 p.m."                },
       		{
       			"date": "9/22",
       			"teams": {
@@ -74,9 +65,8 @@
       				"visitor": "U3"
       			},
       			"location": "South",
-      			"link": "https://www.google.com/maps/dir/52.342784,4.8177152/south+elementary+school+chicago/@19.8084436,-111.854137,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880e2c9a9e2172c9:0xf8e1705680f94707!2m2!1d-87.6287084!2d41.8668162",
-      			"time": "9:30 a.m."
-				},
+      			"link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.7480203091422!2d-87.65355788455759!3d41.91977527921896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3196fb41dc7%3A0x970be7f7d6336df5!2s2101+N+Fremont+St%2C+Chicago%2C+IL+60614%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1541687913221",
+      			"time": "9:30 a.m."				},
       		{
       			"date": "9/22",
       			"teams": {
@@ -84,9 +74,8 @@
       				"visitor": "U6"
       			},
       			"location": "Howard A Yeager",
-      			"link": "https://www.google.com/maps/dir/52.342784,4.8177152/google+maps+howard+a+yeager+school/@20.2317528,-111.6565181,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880feccac26b07c5:0x8b51fa5d6efe771a!2m2!1d-87.8538811!2d42.3154383",
-      			"time": "1:00 p.m."
-},
+      			"link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d378807.9890583925!2d-88.03858820023551!3d42.119518220580346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f852467%3A0xb6cb22b2f0358874!2sHoward+A+Yeager+Elementary!5e0!3m2!1snl!2snl!4v1538133143181",
+      			"time": "1:00 p.m."                },
       		{
       			"date": "9/29",
       			"teams": {
@@ -94,8 +83,8 @@
       				"visitor": "U5"
       			},
       			"location": "Greenbay",
-      			"link": "https://www.google.com/maps/dir/52.342784,4.8177152/google+maps+greenbay+elementary+school/@20.2369431,-111.6602344,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880f933bce5af881:0x740a7a7d548adce1!2m2!1d-87.8688642!2d42.3209639",
-      			"time": "9:30 a.m."
+      			"link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.022795992264!2d-87.64002218475413!3d41.9138686711543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3407260c45b%3A0xb351205fae50c6f3!2sGreenbay+Elementary!5e0!3m2!1snl!2snl!4v1538132628646",
+      			"time": "9:30 a.m."      			
 				},
       		{
       			"date": "10/06",
@@ -104,9 +93,8 @@
       				"visitor": "U5"
       			},
       			"location": "Marjorie P Hart",
-      			"link": "https://www.google.com/maps/dir/52.342784,4.8177152/google+maps+majorie+p+hart+school/@20.2427662,-111.6444125,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880fecd0628e1bb5:0x9a4d5f9aafd42e02!2m2!1d-87.84569!2d42.3271639",
-      			"time": "9:30 a.m."
-},
+      			"link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.289653643637!2d-87.64816138475369!3d41.92962687016738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2637f9d7%3A0xdbff5d5dfcfcfa35!2sMarjorie+P+Hart+Elementary!5e0!3m2!1snl!2snl!4v1538133297763",
+      			"time": "9:30 a.m."                },
       		{
       			"date": "10/06",
       			"teams": {
@@ -114,9 +102,8 @@
       				"visitor": "U6"
       			},
       			"location": "South",
-      			"link": "https://www.google.com/maps/dir/52.342784,4.8177152/south+elementary+school+chicago/@19.8084436,-111.854137,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880e2c9a9e2172c9:0xf8e1705680f94707!2m2!1d-87.6287084!2d41.8668162",
-      			"time": "1:00 p.m."
-				},
+      			"link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.7480203091422!2d-87.65355788455759!3d41.91977527921896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3196fb41dc7%3A0x970be7f7d6336df5!2s2101+N+Fremont+St%2C+Chicago%2C+IL+60614%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1541687913221",
+      			"time": "1:00 p.m."				},
       		{
       			"date": "10/08",
       			"teams": {
@@ -124,9 +111,9 @@
       				"visitor": "U4"
       			},
       			"location": "Howard A Yeager",
-      			"link": "https://www.google.com/maps/dir/52.342784,4.8177152/google+maps+howard+a+yeager+school/@20.2317528,-111.6565181,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880feccac26b07c5:0x8b51fa5d6efe771a!2m2!1d-87.8538811!2d42.3154383",
-      			"time": "9:30 a.m."
-},
+      			"link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d378807.9890583925!2d-88.03858820023551!3d42.119518220580346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f852467%3A0xb6cb22b2f0358874!2sHoward+A+Yeager+Elementary!5e0!3m2!1snl!2snl!4v1538133143181",
+      			"time": "9:30 a.m."      		
+      		},
       		{
       			"date": "10/08",
       			"teams": {
@@ -134,9 +121,8 @@
       				"visitor": "U1"
       			},
       			"location": "Greenbay",
-      			"link": "https://www.google.com/maps/dir/52.342784,4.8177152/google+maps+greenbay+elementary+school/@20.2369431,-111.6602344,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880f933bce5af881:0x740a7a7d548adce1!2m2!1d-87.8688642!2d42.3209639",
-      			"time": "9:30 a.m."
-},
+      			"link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.022795992264!2d-87.64002218475413!3d41.9138686711543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3407260c45b%3A0xb351205fae50c6f3!2sGreenbay+Elementary!5e0!3m2!1snl!2snl!4v1538132628646",
+      			"time": "9:30 a.m."                },
       		{
       			"date": "10/20",
       			"teams": {
@@ -144,9 +130,8 @@
       				"visitor": "U3"
       			},
       			"location": "North",
-      			"link": "https://www.google.com/maps?ll=42.368957,-87.834445&z=14&t=m&hl=nl-NL&gl=US&mapclient=embed&daddr=North+Elementary+School+410+Franklin+St+Waukegan,+IL+60085@42.36895699999999,-87.834445",
-      			"time": "9:30 a.m."
-},
+      			"link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2967.8450166737325!2d-87.8660523847534!3d41.9391815695688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fb5780ddb9c43%3A0x227feb04cbcf4c4!2sNorth+Elementary+School!5e0!3m2!1snl!2snl!4v1538133595483",
+      			"time": "9:30 a.m."               },
       		{
       			"date": "10/20",
       			"teams": {
@@ -154,9 +139,8 @@
       				"visitor": "U4"
       			},
       			"location": "Marjorie P Hart",
-      			"link": "https://www.google.com/maps/dir/52.342784,4.8177152/google+maps+majorie+p+hart+school/@20.2427662,-111.6444125,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880fecd0628e1bb5:0x9a4d5f9aafd42e02!2m2!1d-87.84569!2d42.3271639",
-      			"time": "1:00 p.m."
-},
+      			"link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.289653643637!2d-87.64816138475369!3d41.92962687016738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2637f9d7%3A0xdbff5d5dfcfcfa35!2sMarjorie+P+Hart+Elementary!5e0!3m2!1snl!2snl!4v1538133297763",
+      			"time": "1:00 p.m."},
       		{
       			"date": "10/27",
       			"teams": {
@@ -164,9 +148,8 @@
       				"visitor": "U1"
       			},
       			"location": "AJ Katzenmaier",
-      			"link": "https://www.google.com/maps/dir/52.342784,4.8177152/google+maps+aj+katzenmaier/@20.2415496,-111.6538223,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880f932fbc6ba7cd:0xcf2bbe275c6da815!2m2!1d-87.8627401!2d42.3258685",
-      			"time": "9:30 a.m."
-},
+      			"link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.654213557415!2d-87.63123838475778!3d41.90029307922052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f6bac3%3A0x68a82e5d59952c86!2s24+W+Walton+St%2C+Chicago%2C+IL+60610%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1538054040140",
+      			"time": "9:30 a.m."                },
       		{
       			"date": "10/27",
       			"teams": {
@@ -174,45 +157,41 @@
       				"visitor": "U6"
       			},
       			"location": "Howard A Yeager",
-      			"link": "https://www.google.com/maps/dir/52.342784,4.8177152/google+maps+howard+a+yeager+school/@20.2317528,-111.6565181,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880feccac26b07c5:0x8b51fa5d6efe771a!2m2!1d-87.8538811!2d42.3154383",
+      			"link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d378807.9890583925!2d-88.03858820023551!3d42.119518220580346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f852467%3A0xb6cb22b2f0358874!2sHoward+A+Yeager+Elementary!5e0!3m2!1snl!2snl!4v1538133143181",
       			"time": "1:00 p.m."
 }],
       	"locations": {
-      		"AJ Katzenmaier": "https://www.google.com/maps/dir/52.342784,4.8177152/google+maps+aj+katzenmaier/@20.2415496,-111.6538223,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880f932fbc6ba7cd:0xcf2bbe275c6da815!2m2!1d-87.8627401!2d42.3258685",
-      		"Greenbay": "https://www.google.com/maps/dir/52.342784,4.8177152/google+maps+greenbay+elementary+school/@20.2369431,-111.6602344,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880f933bce5af881:0x740a7a7d548adce1!2m2!1d-87.8688642!2d42.3209639",
-      		"Howard A Yeager": "https://www.google.com/maps/dir/52.342784,4.8177152/google+maps+howard+a+yeager+school/@20.2317528,-111.6565181,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880feccac26b07c5:0x8b51fa5d6efe771a!2m2!1d-87.8538811!2d42.3154383",
-      		"Majorie P Hart": "https://www.google.com/maps/dir/52.342784,4.8177152/google+maps+majorie+p+hart+school/@20.2427662,-111.6444125,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880fecd0628e1bb5:0x9a4d5f9aafd42e02!2m2!1d-87.84569!2d42.3271639",
-      		"North": "https://www.google.com/maps?ll=42.368957,-87.834445&z=14&t=m&hl=nl-NL&gl=US&mapclient=embed&daddr=North+Elementary+School+410+Franklin+St+Waukegan,+IL+60085@42.36895699999999,-87.834445",
-      		"South": "https://www.google.com/maps/dir/52.342784,4.8177152/south+elementary+school+chicago/@19.8084436,-111.854137,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x880e2c9a9e2172c9:0xf8e1705680f94707!2m2!1d-87.6287084!2d41.8668162"
+      		"AJ Katzenmaier": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.654213557415!2d-87.63123838475778!3d41.90029307922052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f6bac3%3A0x68a82e5d59952c86!2s24+W+Walton+St%2C+Chicago%2C+IL+60610%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1538054040140",
+      		"Greenbay": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.022795992264!2d-87.64002218475413!3d41.9138686711543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3407260c45b%3A0xb351205fae50c6f3!2sGreenbay+Elementary!5e0!3m2!1snl!2snl!4v1538132628646",
+      		"Howard A Yeager": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d378807.9890583925!2d-88.03858820023551!3d42.119518220580346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f852467%3A0xb6cb22b2f0358874!2sHoward+A+Yeager+Elementary!5e0!3m2!1snl!2snl!4v1538133143181",
+      		"Majorie P Hart": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.289653643637!2d-87.64816138475369!3d41.92962687016738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2637f9d7%3A0xdbff5d5dfcfcfa35!2sMarjorie+P+Hart+Elementary!5e0!3m2!1snl!2snl!4v1538133297763",
+      		"North": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2967.8450166737325!2d-87.8660523847534!3d41.9391815695688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fb5780ddb9c43%3A0x227feb04cbcf4c4!2sNorth+Elementary+School!5e0!3m2!1snl!2snl!4v1538133595483",
+      		"South": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.7480203091422!2d-87.65355788455759!3d41.91977527921896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3196fb41dc7%3A0x970be7f7d6336df5!2s2101+N+Fremont+St%2C+Chicago%2C+IL+60614%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1541687913221"
       	},
-
       	"teams": [
       		{
       			"name": "U1",
-      			"logo": "images/ajk1.png",
+      			"logo": "images/ajk1.png"
 		  },
       		{
       			"name": "U2",
-      			"logo": "images/greenbay1.png",
+      			"logo": "images/greenbay1.png"
 			},
       		{
       			"name": "U3",
-      			"logo": "images/yeager1.png",
+      			"logo": "images/yeager1.png"
 			},
       		{
       			"name": "U4",
-      			"logo": "images/marjorie1.png",
+      			"logo": "images/marjorie1.png"
 },
       		{
       			"name": "U5",
-      			"logo": "images/north1.jpg",
+      			"logo": "images/north1.jpg"
 },
       		{
       			"name": "U6",
-      			"logo": "images/south2.png",
-			},
-
-      	
-
+      			"logo": "images/south2.png"
+			}
       	]
       }
