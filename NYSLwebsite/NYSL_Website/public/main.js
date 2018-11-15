@@ -59,6 +59,8 @@ var app = new Vue({
 			}
 			this.games = filteredGames;
 		},
+
+
 		getTheKeysForLocations() {
 			var locations = app.locations;
 			console.log(locations)
@@ -78,21 +80,21 @@ var app = new Vue({
 			console.log(view)
 			this.currentView = view;
 			console.log(this.currentView)
-			if(this.currentView == 'chat' ){
+			if (this.currentView == 'chat') {
 				firebase.auth().onAuthStateChanged(function (user) {
 					console.log(user != null)
-                if (user != null) {
-                    console.log("user signed in")
-                    // User is signed in.
-                    app.userLogged = true;
-                    app.getPosts();
-                } else {
-                    // No user is signed in.
-                    app.userLogged = false;
-                    
-                }
-            });
-				
+					if (user != null) {
+						console.log("user signed in")
+						// User is signed in.
+						app.userLogged = true;
+						app.getPosts();
+					} else {
+						// No user is signed in.
+						app.userLogged = false;
+
+					}
+				});
+
 			}
 			console.log(this.currentView)
 		},
@@ -100,7 +102,7 @@ var app = new Vue({
 			var provider = new firebase.auth.GoogleAuthProvider();
 
 			firebase.auth().signInWithPopup(provider);
-			
+
 			console.log("login");
 			app.getPosts();
 			app.userLogged = true;
@@ -135,7 +137,7 @@ var app = new Vue({
 		},
 		getPosts: function () {
 			firebase.database().ref('chat').on('value', function (data) {
-				
+
 				var userEmail = firebase.auth().currentUser.email;
 
 				var posts = document.getElementById("posts");
@@ -143,7 +145,7 @@ var app = new Vue({
 				var messages = data.val();
 				console.log(data.val())
 				var allPosts = [];
-				
+
 
 				for (var key in messages) {
 					let element = messages[key];
@@ -154,38 +156,27 @@ var app = new Vue({
 						element["user"] = "otherpost";
 					}
 					allPosts.push(element);
-					//					var text = document.createElement("div");
-					//					text.classList.add('bubble')
-					//					var element = messages[key];
-					//
-					//					text.append(element.name);
-					//					text.append(element.body);
-					//					posts.append(text);
+
 				}
 				app.messages = allPosts;
-				
 				//				setTimeout(function () {
-				//                   $("#chat-window").animate({
-				//                       scrollTop: $("#chat-window").prop("scrollHeight")
-				//                   });
-				//                   app.loadingPost = false;
-				//               }, 500)
-				//				console.log(app.messages)
-			});
+				//					$("#chat-window").scrollTop($("#chat-window").scrollHeight)
+				//				})
+				setTimeout(function () {
+					$("#chat-window").animate({
+						scrollTop: $("#chat-window").prop("scrollHeight")
+					});
+//					app.loadingPost = false;
+				}, 500)
+//				console.log(app.messages)
+				console.log("getting posts");
 
-			//			console.log("getting posts");
-
+			})
 		},
 		logout() {
 			firebase.auth().signOut();
 			app.userLogged = false;
-		}
-
-
-
-
-
-
+		},
 	}
 
 });
