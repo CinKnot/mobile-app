@@ -20,7 +20,8 @@
 	<div id="app">
 		<div v-if="currentView=='index'" class='view home'>
 			<div class="header">
-				<button type="button" v-on:click="setcurrentView('index')">Home<i class="material-icons">arrow_back</i></button>
+			
+				
 				<img class="image1" src="images/nysl_logo.png" alt="the logo of the nysl" />
 			</div>
 			<div class="title">
@@ -158,22 +159,13 @@
 
 			<div id="body">
 
-				<!--					<div class="loaded">-->
-
+				
 				<div class="login-logout">
 					<button id="login" v-if="userLogged == false" @click="login()">Log in</button>
 					<button id="logout" v-if="userLogged == true" @click="logout()">Log out</button>
 				</div>
 				<div class="chat-window" id="chat-window">
-					<!--						<div class="loader" v-if="userLogged == false">-->
-					<!--							<div class="bubblingG">-->
-					<!--
-								<span id="bubblingG_1"></span>
-								<span id="bubblingG_2"></span>
-								<span id="bubblingG_3"></span>
-							</div>
--->
-					<!--						</div>-->
+					
 					<div class="each-post" v-for="post in messages" :class="post.user">
 						<div class="username-image">
 							<div class="username">{{post.name}}</div>

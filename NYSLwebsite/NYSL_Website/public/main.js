@@ -49,6 +49,7 @@ var app = new Vue({
 			this.currentView = 'schedule'
 			var games = this.allGames;
 			var filteredGames = [];
+
 			for (var i = 0; i < games.length; i++) {
 				if (games[i].teams.host == team || games[i].teams.visitor == team) {
 					filteredGames.push(games[i]);
@@ -77,9 +78,7 @@ var app = new Vue({
 			app.selectedLocation = selectedLocation;
 		},
 		setcurrentView(view) {
-			console.log(view)
 			this.currentView = view;
-			console.log(this.currentView)
 			if (this.currentView == 'chat') {
 				firebase.auth().onAuthStateChanged(function (user) {
 					console.log(user != null)
@@ -97,6 +96,7 @@ var app = new Vue({
 
 			}
 			console.log(this.currentView)
+
 		},
 		login() {
 			var provider = new firebase.auth.GoogleAuthProvider();
@@ -159,16 +159,14 @@ var app = new Vue({
 
 				}
 				app.messages = allPosts;
-				//				setTimeout(function () {
-				//					$("#chat-window").scrollTop($("#chat-window").scrollHeight)
-				//				})
+				
 				setTimeout(function () {
 					$("#chat-window").animate({
 						scrollTop: $("#chat-window").prop("scrollHeight")
 					});
-//					app.loadingPost = false;
+					//					app.loadingPost = false;
 				}, 500)
-//				console.log(app.messages)
+				
 				console.log("getting posts");
 
 			})
